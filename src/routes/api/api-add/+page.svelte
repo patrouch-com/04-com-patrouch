@@ -4,7 +4,7 @@
     let total = 0;
 
     async function add() {
-        const response = await fetch('/add', {
+        const response = await fetch('/api/api-add', {
             method: 'POST',
             body: JSON.stringify({ a, b }),
             headers: {
@@ -24,5 +24,3 @@
 {total}
 
 <button on:click={add}>Calculate</button>
-
-
