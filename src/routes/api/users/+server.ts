@@ -9,4 +9,3 @@ export async function GET({ request, platform }) {
   return new Response(JSON.stringify(result));
 }
 
-<h1> Users </h1>
